@@ -1,11 +1,12 @@
 import numpy as np
 import re
+from nltk.tokenize import word_tokenize
 import itertools
 from collections import Counter
 
 
 def clean_str(string):
-
+    string = re.sub(r'\w+:\/{2}[\d\w-]+(\.[\d\w-]+)*(?:(?:\/[^\s/]*))*', '', string)
     string = re.sub(r"[^A-Za-z0-9(),!?\'\`]", " ", string)
     string = re.sub(r"\'s", " \'s", string)
     string = re.sub(r"\'ve", " \'ve", string)
@@ -21,6 +22,9 @@ def clean_str(string):
     string = re.sub(r"\s{2,}", " ", string)
     return string.strip().lower()
 
+
+
+
 def load_data_and_labels(bug_data_file, nonBug_data_file):
 
     bug_examples = list(open(bug_data_file, "r").readlines())
@@ -35,3 +39,10 @@ def load_data_and_labels(bug_data_file, nonBug_data_file):
     nonBug_labels = [[0, 1] for _ in nonBug_examples]
     y = np.concatenate([bug_labels, nonBug_labels], 0)
     return [x_text, y]
+
+if __name__ == '__main__':
+    with open('test.txt', 'r') as file:
+        for line in file:
+            print(line)
+            line = clean_str(line)
+            print(line)

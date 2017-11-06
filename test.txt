@@ -1,0 +1,20 @@
+https://wiki.duraspace.org/display/DSDOC6x/Ingesting+HTML+Archives does not descripe how to use HTML online browsing.
+REST API documentation data types are wrong
+XMLUI Control Panel misses documentation
+Clear up meaning of different advanced search filters
+Missing documentation for "suggest an item"
+add doc on how to package only parts 
+XMLUI Config Params documentation review
+inaccurate createuser command
+Gather documentation of crosswalks into official pages
+Default metadata schema: differentiate between submission defaults and real system dependencies
+Documentation for cleanup script
+Authority Control Documentation
+No "troubleshooting" section in DSpace documentation?
+Create documentation for Updating a DSpace installation from source
+Better documentation for permissions
+Provide a common way to extends the REST API
+Performance Tuning Documentation - 2017 revision
+Handle generation changed between 5x and 6x
+Improve docs on gzip compressed delivery of sitemaps
+Configuration changes in DSpace 7
