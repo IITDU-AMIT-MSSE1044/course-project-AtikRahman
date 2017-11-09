@@ -1,0 +1,454 @@
+Initial skeleton and poc for the new-REST webapp
+Solr needs to be upgraded, Solr 4 is EOL
+OAI resumptionToken expiration feature
+EPersons cached as submitters aren't uncached when their item is
+Remove Elasticsearch Statistics
+need to implement new Puppet Environment or use Puppet Apply provisioner
+Replace log4j 1.2, which is EOL
+GeoLiteCity.dat doesn't belong in config and can get out of date
+LICENSES_THIRD_PARTY file lists DSpace APIs as "SNAPSHOT" versions
+log4j Warning in catalina.out caused by jspui, sword and rest webapps
+log4j-handle-plugin.properties still points to dspace/config/templates
+create a script to clean up ePersons with null data
+replace tdonohue's bespoke tomcat-puppet module with a suitable third-party Puppet module
+Vagrant-DSpace should support RHEL/CentOS VMs
+check codebase for deprecated calls and locale-unsafe calls using the forbidden-apis tool
+Dependency upgrades
+Remove unused support for multiple kernels
+Remove support for multiple ServiceManagers
+Our dependencies need grooming
+validate OAI-PMH output against XSDs
+Refactor Code Compiling Usage Statistics
+Solr upgrade for DSpace
+Enable Error Prone to check for common Java code errors
+Replace the contiperf library in performance testing
+Remove test classes duplication across the different modules
+OAI-Harvester needs better documentation
+bump pdfbox version (bugfixes only)
+https://wiki.duraspace.org/display/DSDOC6x/Ingesting+HTML+Archives does not descripe how to use HTML online browsing.
+REST API documentation data types are wrong
+XMLUI Control Panel misses documentation
+Clear up meaning of different advanced search filters
+Missing documentation for "suggest an item"
+add doc on how to package only parts 
+XMLUI Config Params documentation review
+inaccurate createuser command
+Gather documentation of crosswalks into official pages
+Default metadata schema: differentiate between submission defaults and real system dependencies
+Documentation for cleanup script
+Authority Control Documentation
+No "troubleshooting" section in DSpace documentation?
+Create documentation for Updating a DSpace installation from source
+Better documentation for permissions
+Provide a common way to extends the REST API
+Performance Tuning Documentation - 2017 revision
+Handle generation changed between 5x and 6x
+Improve docs on gzip compressed delivery of sitemaps
+Configuration changes in DSpace 7
+Optimizations of database access for batch operations are fragile
+SOLR based endpoints (browse by, search) should limit information on embargoed items
+REST items/find-by-metadata-field should support pagination
+Build ability to export Elasticsearch Usage Stats to intermediate format
+Allow for the review of the embargo dates during submission
+Add existing item to a collection / linking items to multiple collections via REST
+Restricted item with Request Copy has downloads
+Reimplement the harvesting backend in DSpace
+Content Filter / Cleaning
+Level A accessibility issue: structure and relationships 
+Remove or merge pre-3.0 Embargo functionality with new Embargo
+DSpaceMETSIngester is hard-coded to one profile, it should be generalised
+Allow administrators to skip the workflow when create new version of an item
+Add config option to "Elastic Search" to define which group has statistics viewing privleges
+Provide an alert when trying to add Anonymous group to Administrator group
+Provide an alert when trying to add groups to the Anonymous group
+Show persistent identifier in submission process
+AIP Packager should support TAR / TAR.GZ as well as ZIP
+UTF-8 & Sorting support for diacritic characters
+Add Bitstream Registration ability to Item Update to mirror Item Import functionality
+Add support for any namespaced elements to be published in RSS 2.0 and Atom 1.0 feeds.
+Add support for all RSS 2.0 elements
+Anonymize IP-Logging to comply to privacy laws
+Stop using Email Address as Identifier for DSpace User.
+Artifact preview thumbnail in browse screens does not display primary bitstream
+QDC schema registry needs to be brought into conformity with the current DCMI standards
+Add an administrative metadata schema  to DSpace
+Bulk Metadata Editing: defining "formats" for export/re-import of selected fields
+Add more information about File Downloads to Statistics Reports
+XMLUI news feature in dspace/config dir
+Streamline UI for community/collection role assignment
+Update DublinCore Registry to Implement latest DC Standards
+Item Import and Export, use of multiple metadata schema
+Pre-configure DSpace Embargo settings so that it is easier to enable.
+"Clone" collection
+When a Workflow group is updated, existing Tasks still have the same set of Epersons authorized to take task.
+Transition ORCID integration to ORCID API 2.0
+Support cache control in the bitstream download
+Hibernate's legacy org.hibernate.Criteria API is deprecated
+Localization of input-forms.xml in XMLUI
+Database 'info' / 'status' scripts should check for required groups/registries
+Implementation of Google Cloud Storage bitstore
+When browsing items, “starts-with” letters should be configurable.
+Refit stock Curation Tasks to use Task Properties as needed
+OAI filter to exclude set from harvesting
+REST API permission expand option
+OAI-PMH interface should contain DSpace's version number when answering requests to identify
+[REST] Hierarchy endpoint uses "id" while all the others use "UUID"
+Database Schema Consistency Issues
+Keyboard navigation does not work in submission
+Robots.txt can block access to /browse but not to /handle/*/browse
+Select citation page size
+Make number of results for XMLUI's usage statistics configurable in usage-statistics.cfg
+Consolidate logic that defines or restricts changes to  "important" metadata fields
+Allow CSV Import Process to use a handle (rather than id) as a primary key
+create a post-ingest workflow
+AIP export directory contains too many files for exports of large collections
+Bitstream Format Registry make LICENSE and CC LICENSE not deletable
+DSpace 5.5 Turkish Language pack
+Update Spider detection our lists are out of date
+REST API should return number of subcommunities / collections in Community requests
+Default dc.identifier.uri config shouldn't assume handle server will be used
+Shouldn't metadata be available for all bitstreams in the REST API?
+SolrServiceImpl is too long/needs refactoring
+Less file scanning by Servlet container at startup
+Allow more flexibilty in assigning DSpace groups to Shibboleth affiliations
+Create a feature so that submitters can retroactively submit supporting research data to items previously submitted.
+JSPUI language file submission: Romanian
+Replace traditional workflow with Configurable Workflow
+convert media filters to curation tasks
+Update bundle in bitstream REST endpoint
+Automated documentation generation for REST API
+More robust support for bitstream storage on external services
+UI support for initial administrator creation
+Make logs more meaningful and clean them up
+A hit on the XMLUI homepage is logged as community view
+Do we still need DSpace's custom DailyFileAppender?
+Different versions of robots.txt for test and production.
+Mirage 2: Dealing with large lists of authors on item pages, search and browse results
+Google Analytics bitstream download logger should respect do-not-track header
+Policies can not be directly assigned to EPeople in the UI
+Input form support for temporal intervals
+Consider adding an ant task that clears OAI (and Cocoon cache?) during build
+"Just works" default solution for outgoing emails
+Breadcrumb in Item submission
+"Submissions & Workflow tasks" page
+More visibility of Recently Added Items in the home page
+Naming buttons in Item submission
+CLI to deactivate system wide alerts in XMLUI
+Improve collections and communities metadata in discovery results
+Upgrade DSpace to use XOAI 4.x
+Map the Item Level Versioning in metadata fields like dc.hasVersion, dc.replaces, ...
+Introduce a handle that always refers the newest version of an Item
+Suggestion for XMLUI Item submission process
+Combine jspui.google.analytics.key and xmlui.google.analytics.key
+UI duplication between "My account" and user drop down in Mirage 2
+we need a less complicated workflow for offline batch submission (batch builder)
+Move ScriptLauncher configuration into project resources
+Stackable authentication method improvement
+exclude bitstreams from item export  + export items from community 
+Solr/Lucene auto update should run during startup of dspace-solr
+Full Pagination (with page numbers)
+authority index - search by ORCID
+Show embargo periods on 'Review Submission' Page
+Add OAI-PMH link to HTML header
+Improve the error handling of Google Analytics errors
+Add defaults for id columns in postgresql
+Move to a more stock Handle service, implementing proper separation of concerns
+set mail.server.disabled in Vagrant.properties (as soon as we are able to do so)
+Replace dspace-info.pl with curation tasks
+upgrade SQL scripts should include BEGIN and COMMIT (i.e. be wrapped as a transaction)
+Parsing of ORE.xml "Bitstream" on Item display page of ORE harvested Collection is not done
+ImportNow/Reset-ReimportCollection functions for Harvested collections also in JSPUI
+Use ACLs not code to control object visibility in sitemaps, RSS, etc.
+Bitstream / File download URLs change when new files are uploaded
+add Maven enforcer plugin and configuration to prevent transitive SNAPSHOT dependencies
+Expand Sword Collection names to include hirearchy
+DSpace admins should be able to enable streaming or pseudo streaming on a per-format basis
+Make dependencies on dc.contributor.* configurable
+DSpace 1.8.2 Accessibility WCAG 2.0 level AA improvements
+Selectively provide identifiers for incoming Items, based on Collection to which submitted
+Auto-generate DSpace Sitemaps and enable by default
+Request a Copy and delegated submission
+CheckSum Checker Emailer should report errors or whether checksum checker is even running
+Meta data to queries in reply; Listing of all items; Pagination; Maximal pagination size option; item search using discovery
+Find a way to report on existing, possibly inaccurate "dc.date.issued" values
+Request Copy function for XMLUI and JSPUI; would allow author of item to give temporary viewing privs to restricted item?
+Bootstrap JSPUI - could the 'container banner' content be editable in the same way as the news sections?
+Enhance JSPUI Help contents based on new JSPUI look & feel
+cache schemas during AIP validation
+Support the use of clamdscan for virus checking during ingest
+SWORD interface slowest response on a request for servicedocument
+Create a separate resource policy for different bundles (ORIGINAL and THUMBNAIL)
+Improve the JSPUI flow for bitstream level embargo definition
+Show upload progress bar file size in a human-readable way
+New attribute Maxlength for input-forms.xml
+support for connecting to institutional reporting tools
+Create new user process needs improvement
+detect when ImageIO JARs are not present (when using XPDF) and print a meaningful error
+Language pack French XMLUI
+Don't store user data if we can get them from external source when needed
+CCLookup writing errors into metadata when cannot get text from Creative Commons
+make alert.recipient generally usable
+Submission process and workflow selection considering the community's hierarchy
+Enable separation of LDAP search credentials from DSpace configuration
+update the handle server (to get IPv6 support)
+XMLUI default theme is not valid XHTML 1.0 strict and CSS
+transform dstat.map into messages.keys format
+Delegated admin - management of withdrawn items
+the process of uploading distribution archives of new versions of DSpace to SourceForge should be automated
+class launcher using running JVM
+Templates in combination with controlled vocabularies
+display bitstream read access pertaining to current user
+remember item view type in session variables
+make host restriction configurable for Solr access
+Metadata internationalization
+Edit an Item using the workflow process
+Inline editable metadata
+Browse by date "Choose year" jump not scoped.
+registry loader does not employ the more flexible MetadataImporter
+Link to Just Submitted Item Not Available in XMLUI
+add redirects to SWORD/OAI/LNI interfaces
+Arbitrary SOLR queries in Discovery facets
+Integrating a streaming server with DSpace to present audio and video files is desirable
+Add metadata export for community and collection managers
+CLI itemupdate does not remove empty bitstream bundles.
+Discovery filter dialog usability
+SOLR - Provide a mechanism to force a commit.
+Item Edit View, Edit Collection View, Control Panel need Navigation Improved for extensibility and DSpace needs a "SiteMap" page.
+Port XMLUI to Cocoon 3.0
+ItemImport should allow you to import to a workspace
+Authorization policy
+Offer Item Mapping as a feature on "Edit Item" instead of only on Collections
+file upload via URL in JSPUI submission forms
+Allow workflow notifications to be turned off in dspace.cfg
+Manage visibilty of metadata fields as field attribute rather than in dspace.cfg
+Add the ability to copy to self of feedback
+XMLUI - managing of subscriptions
+Plugin Interface to add Custom Data Types to Configurable Submission Forms
+MetadataExposure hides fields except for System Admins - this should extend to Community and Collection Admins
+Checksum Checker reports on bitstreams which do not have "in_archive" status
+Collection administrator help page not linked in some places
+text direction in templates
+DSpace Intermediate Metadataformat DIM - include handle or ID
+Use groupId and artifactId from the dspace-api POM in Util.java
+multi-calendar
+Notifications for submitter and workflow task responsible on workflow abortion through administrator
+emails translated to brazilian portuguese 
+solr statistics evaluation timespan displayed
+Update DSpace lib versions to align with RTS
+Add support for more SQL Dialects (MySQL, SQL Server, more?)
+Curation task 'requiredmetadata' should have a mode to report all problems
+Ability to mark a metadata namespace "immutable"
+Reduce logging in CSVExportDiscoveryNavigation
+Improve color profile handling enduring thumbnail generation
+Sort communities and collections using database sort operation
+ORCID display in XMLUI should not rely solely on the Authority confidence icon
+404 response encountered by bots in Discovery.
+Allowing HTML tags in email templates
+Add a CLI for the system message notification
+Policies assigned to EPeople are not visible in XMLUI
+Startup sequence dumps too much into catalina.out / system out
+Curation task admin UI should complain when no handle is given
+Autocomplete minLength and delay configuration
+Improve BitstreamReader Performance and Caching behavior in XMLUI
+Ensure consistent, robust treatment of markup in metadata
+Allow to specify data and log directories
+Add Support for Created and Modified timestamps on Bitstreams.
+authority index - extra click when searching by GUID
+Multilingual support for browse indexes and discovery facets
+default value for handle.canonical.prefix should use https instead of http
+create a command line script for deleting objects
+Update item via Swordv2 using its handle
+option for the cleanup command to continue beyond exceptions 
+Upgrade DSpace JSPUI to the last bootstrap version
+consistently extend CLI
+REST API output for text/html
+restrict access to access permissions in mets.xml
+restrict Request Item by document type (metadata value)
+restore search form autocomplete in XMLUI (removed in 3.0)
+Add allow/deny rules for self-registration in the simple password authentication module
+Combine eperson and groups search in Assign Roles page
+support XSLT 2.0 in XMLUI
+Should we keep logging usage stats for bistreams in all bundles?
+Filter media should not fill up disk
+Google Scholar Markup Enhancements
+Altmetric / PlumX integration for Mirage 2 
+Usage statistics for a community/collection should show counts of bitstream views and item views
+Color Profile Detection Method in ImageMagick filter is prohibitively slow
+Restore automatic detection of DBMS dialect
+Provide for automated discovery of PMH, SWORD, REST, and other machine-readable services
+Full reindex (index-discovery) is triggered whenever Flyway finds a new DB migration
+Robots/Crawlers: Pull latest botlist from COUNTER github instead of managing our own list
+Show and use affiliations for ORCID authors
+Expand DSpace REST Reports to include bitstream fields in item listing
+Restrospectively create DOI's for alle items in archive
+REST Query/Collection Report - Bug Filtering for Bitstream Permissions
+Add support for Range Header in the bistream download
+Exposing ORCIDs over OAI-PMH and REST-API
+List the collections associated with a specific submission configuration
+REST Collection Report - Need a paginated findByCollection call that can return withdrawn items
+Isolate DSpace-generated DOIs from other identifiers
+Metadata recommendations on Publisher DOI vs Repo generated DOI
+Prepare for Tomcat 8+
+Ability to export citations in common formats (e.g. RIS)
+NullPointerException when accessing the feedback page without Referer header set
+Items and Bitstreams endpoint should only return records that the user is allowed to view
+Duplication and confusion of functions between PluginManager and ServiceManager
+Use spring to instantiate ChoiceAuthority instead of the legacy DSpace plugin Framework
+Don't scare the admin. when an email Session is not found in JNDI
+DIM2DataCite crosswalk update to version 4.0
+bin/dspace create-administrator needs a --help option
+Input form Y-m-d date presentation wrong
+Recent submission carousel for community home abstract not displayed
+Word wrap and hyphenation in Item Full View
+DOI Documentation 
+XMLUI minor tweaks for the Submissions & Workflow tasks page 
+Add a config option to "dspace.cfg" to enable the "Elastic Search" event listener, similar to enabling the "Discovery" listener.
+My Account context lists menu point submissions even if no unfinished submissions or workflow tasks are available
+Remove unnecessary complexity of item mapping
+Document the persistence support classes
+Expose subcommunities in the community rest resource
+Authentication over the new REST API
+Endpoint to create new submissions
+Expose existent submissions over REST
+Expose submission configuration over REST API
+Duplicate prevention and merging
+Acceptance test suite
+Add Static Pages more easily
+Adopt interface translating by Translatewiki.net
+Sharing and Export Bar
+Integrating image ingestion and image viewing for master/preservation image files 
+Send email to new user from Add E-Person
+Integration with any translation Dictionary  (Having a developer already to start to develop this feature)
+Automated metadata generation from PDFs (using JabRef?)
+Bitstream Format Renovation
+Skip from Item page to next Item in Browse results without having to return to Browse results page
+Create a DSpace "Installer" which doesn't require users to build DSpace using Maven and Ant
+Create easy upgrade scripts (e.g. 'dspace upgrade 1.6 1.7'), likely in Java
+Provide a "nonAnon" attribute to XMLUI theme
+On item pages, collection link should go to title browse, not collection splash page
+Pack/Unpack Zip files
+Item submission - possibility to overwrite the default item policies as inherited from the owning collection during item submission
+Migrate Item Recommendation functionality to XMLUI
+Ability to map collections to multiple communities
+When browsing by letter, set breadcrumb to take user back to main browse index
+Port JSPUI "Currently Active Workflows" list to XMLUI
+Implement signposting pattern in DSpace
+Hierarchical Metadata Support
+Implement ResourceSync for DSpace
+API for exchange of Usage Data
+Disable Legacy Usage Reports (log file based usage statistics)
+Import of ScienceDirect metadata including embargo and linking to or embedding of the final version
+Implement the DELETE operation in the REST repository
+Create eperson endpoint (POST)
+BitStore implementation for the Hadoop Filesystem API
+Add logo to citation page
+Limit MediaFilter execution based on run time or bitstream count
+Create a REST endpoint that provides access to selected config variables
+Thumbnail removal filter
+Allow classpath definition of command line tools
+WebUI CRUD for Authority cache
+Communities and collections pivot facet in discovery
+CrossService using the CrossRef REST API
+Add 'DSpaceObject's query by metadata in REST API
+Restricting upload of certain filetypes with Bitstream Format Registry
+Allow WYSIWYG editor for item metadata during Submission
+Support mathematical formulas/equations in descriptions
+add ORCID integration for JSPUI
+Consuming events that need an alteration of the OAI Index 
+Authority import in SAF ItemImport
+Assign intranet IPs to specific geolocalization (country and city)  in SOLR statistics
+ Communities and collections unclear when discovering 
+Choose how the filename of a bitstream is generated when is requested for download
+Tables in XMLWorkflow have duplicate id and bad table markup
+List of favorite items
+more informative / flexible checksum checker + print, count reorting 
+Hide empty Communities/Collections on JSPUI
+dspace script needs a --verbose option, and possibly a --with-progress-bar option
+curation task for PDF/A validation
+Author Profiles
+Suggest a change   (button in item-summary-view)
+Add ability to export Statistical Reports via date range
+Suppress items without anonymous access from the sitemap
+bulk list and change commands
+Embargo Support in ItemImport
+move collection
+task scheduler in admin UI
+UI support to call filter-media 
+DSpace SWORD server should support Bagit-based packages 
+Create a repository manager user interface to manage service configurations
+Create a repository manager user interface to configure the website theme
+Permit redirection to shibboleth logout page via configuration file
+IMAP authentication
+NBN:IT Persistent Identifier
+mapping author names to DSpace users (EPersons)
+sort all the bitstreams in an item in the ascending or descending order by the file name
+Using HTML5 for File Upload in XMLUI
+Improve or Replace AuthN and AuthZ in DSpace
+Create a select all items on the Task page
+DSpace 3.1 Turkish Language Files
+detection of duplicate items during import and submission
+Ant target to update custom theme files from source to deploy directory
+Enable private sharing of bitstreams through direct links that bypass imposed access restrictions
+rewrite FormatIdentifier to use jMimeMagic
+repository content analysis
+Integration of plagiarism checking services
+Create structure under existing community with structure-builder
+Create empty collection under existing community with structure-builder
+Generate the citation for a DSpace item from other metadata fields
+open PDF from search results on the first occurence of a keyword
+Support the use of Citation Style language for variable representations of the metadata
+SRU on top of Solr
+European Cookie Law Compliance
+Support date ranges in advanced search
+Aging tool to discover disused accounts
+Titles for DCInput Pages
+Djatoka Thumbnail Image Filter
+Verify file formats at the point of file upload.
+LogManager should offer a method to decompose "log headers" created by getHeader()
+Reset CC licence on an already submitted item
+Add integration with an online document viewer (like flash based FlexPaper)
+Track new user registrations in statistics
+SOLR Statistics: Better detection & avoidance of abusive traffic (including a bot trap) 
+Context Sensitive help for the XMLUI
+Community-based feedback
+Metadata Masking
+SOLR Stats: differentiate between internal institute traffic & external visitors
+add the capability to indicate a withdraw reason to an item ( tombstone )
+Allow for bulk/mass authorization/policy changes on items/bitstreams
+Improvment to OAI-PMH + OAI-ORE harvesting support
+ETD-MS schema out of the box
+Clean up invalid HTML in collection and community metadata
+Configure metadata fields to hide in full item display and OAI-PMH harvesting
+Flag in search and browse results to indicate whether (accessible) bitstreams are available for an item
+Build a simple way to verify if a DSpace upgrade was "successful"
+Allow item exporter -m (migrate) option to be configurable
+Add Orcid authentication support
+Add support for etag in GET requests
+REST endpoints to deliver repository size statistics
+Record Login operations as new usage event in SOLR stats
+Record OAI, SWORD, REST calls in SOLR stats
+add the PSH controlled vocabulary
+Create Spatial Index and Spatial Query
+RIOXX Metadata Profile and OAI-PMH endpoint
+Make SOLR Stats a Cache of Stats Records (rather than the definitive copy of stats)
+DSpace REST allow statistics queries
+add emailAdr commandline parameter to dspace checker-emailer command
+Simple Asynchronous Add-on Facility for DSpace 
+Single Sign-On CAS plugin for DSpace
+Redirect users to current page on login
+Add functionality to add carbon copy (CC) recipients to email
+Export structure with structure-builder
+Add the possibility to define the endpoint URI for the S3BitStoreService
+Add filenames and file descriptions from ORIGINAL bundle to Solr index
+Allow metadata field internationalization in XMLUI
+Expose embargo end date in OAI2
+Dissemination Crosswalk over the new REST API
+Status endpoint to expose the REST API version
+REST Endpoint to expose the AuthorityFramework
+Add endpoint for recording SOLR usage statistics
+Update eperson endpoint (PUT)
+Partial update eperson endpoint (PATCH)
+Selective enabling of identifier generation per-container
+schema.org integration
+Add to top 10 downloaded items to front page statistics
+Patch to JSPUI: exclude from wildcard fields values which are displayed in specific fields elsewhere on the page

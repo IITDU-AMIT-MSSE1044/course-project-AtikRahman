@@ -1,0 +1,650 @@
+Summary
+Invalid field parameter when switching language while viewing View More from sidebar facets
+Search Author 
+DSpace 5.0 DS-2175 issues with special characters - encodings
+Request a document copy
+The message "The file is restricted" showed when attempting to login
+Browse by Author shows Authority Control value in results header
+create community in a fresh installation throws StringIndexOutOfBoundsException in XMLUI
+Google Analytics recording can fastly exhaust database connection when there are network issues
+Additions module does not work on Glassfish + Linux
+Encoding issue with % in ItemTag.java
+AIP Backup & Restore functionality does NOT backup/restore past versions of Items
+Error releasing database connection
+browse by author displays authority key instead of value - JSPUI Test Plan Ref DISC6 - XMLUI DISC8
+EU General Data Protection Regulation (GDPR)
+DSpaceAuthorityIndexer needs to be refactored
+Restore maven-enforcer-plugin on rest7
+Full text content in SOLR should carry the permissions of the source bitstream
+ItemUpdate doesn't allow diacritics
+Community/Collection ADMIN can't delete Bitstream from a xmlWorkflow Item
+Deleting Collection DEFAULT_READ policy group results in Items with no policies
+HTTP 500 error in the SWORD v2 interface
+Submitters don't have the authorization to view their own files under embargo
+JUnit test cases fail when workflow.framework is set to xmlworkflow
+ItemImport's processContentsFile method does not respect permission settings when registering bitstreams
+DSpaceEarliestDateResolver doesn't correctly resolve minimum dates when 10000-01-01 is present
+Search results with Key Words In Context (KWIC) revealing content without authorization
+Authorization to delete communities, delete items and collections and export metadata
+Batch Metadata Editor may report false positive success
+Repeated DOI when submitted by Identifier
+Performance degradation of SOLR Discovery indexing in DSpace 5
+rest fails after repeated item creation
+Batch zip ingest fails
+Statistics display is denied
+Bitstream downloads become unstable when the "on-the-fly" cover page feature is enabled.
+The "index-authority" script for ORCID fails if Tomcat security is enabled.
+One illegal recipient for workflow emails breaks emails to all members of the group
+Syntax error on sql query (not valid for Oracle)
+findAuthorizedPerformanceOptimize=true doesn't read collections of special groups
+Mirage 2 maven build reports SUCCESS even in case of errors
+AIP submission fails for a site containing a subcommunity
+Items with no embargo request cause "Embargo lift date must be in the future, but this is in the past" 
+Mirage2 fails on DSpace 5
+Submission through file is not working
+Citation Cover Page Scalability Issue
+Bad codification with Utils.addEntities
+PDF Citation Coverpage only supports metadata in ISO-8859-1
+JSPUI creates Communities, Collections, EPersons and Groups to early
+Unexpected custom facet/filter behaviour in Discovery
+OAI harvesting fails when unknown metadata field is encountered and harvester.unknownField  = add
+BitstreamStorageManager needs bitstream filename collision prevention
+XMLUI always commits any uncommitted changes while JSPUI always discards any uncommitted changes
+Replication Task Suite fails to build with ValidatorException: PKIX Path building failed
+Enabling Initial Questions step in JSPUI causes error in Workflow steps
+Remove IP address based session hijacking protection
+Replication Task Suite backup to DuraCloud fails if a single upload fails
+"Private" items appear in Collection RSS feeds
+"Private" Items are incorrectly listed in Google Sitemaps
+Problems with special groups and submission steps
+Metadata of withdrawn items is accessible
+Dspace subscriptions unavailable for READ access users
+Passed embargo dates give error upon submission
+Ensure DSpace works with Creative Commons 4.0 licenses
+AIP replace operation fails
+RSS feeds not updating in JSPUI
+Permission check errors when trying to delete communities and collections
+internal_id collisions in Util.generateKey() ?
+AIP Backup & Restore functionality should not duplicate unchanged files across Item Versions
+Display a default thumbnail if the user does not have permissions to view instead of 301 redirecting the image to a login screen
+EmbargoManager looks for Embargo Lift Date in Embargo Terms
+Add HTTP Referer to server error emails
+choices.closed.item.item = true does not function as intended
+XHTML/XML entities (ampersand) encoded bad in XMLUI
+Discovery results, sorted by title, should ignore stop words in sort
+Collection DEFAULT_ITEM_READ and DEFAULT_BITSTREAM_READ handling
+DSpace Makes Improper Assumptions about Group Names for Permission/Role based Groups
+SWORD will only accept deposits on the URL configured in dspace.cfg
+Title Browse index has initial/definite articles showing up.
+Checksum Checker re-processes bitstreams marked "to_be_processed=false" at beginning of month.
+LDAP users with no mail field can't autoregister
+processing of Authentication methods is independent of the chosen Login method (when multiple are available)
+Rend attribute in XREF does not display
+XMLUI RequestInfo.java is not Serializable (Clustering / Load balancing)
+Community admin unable to delete items mapped to other collections.
+Workflow task notification emails not available on deposits via SWORD
+XMLUI Item Mapper contains hardcoded strings and only shows dc.contributor.* and dc.title
+Kubrick browser-specific CSS does not work consistently
+Eperson netID is lost editing the record from the webUI
+XMLUI doesn't start if the error level in the log4j.properties is set to DEBUG
+No unique identifier returned in the SWORD response for the deposit if a workflow is configured for the collection
+OAI Indexing extremely slow and memory inefficient for bigger amount of items
+Invalid item date makes entire collection view crash in JSPUI
+internal system error when trying to log in
+OAIHarvester fails to check valid set identifier
+ElasticSearch Statistics fails in 6.0 (does not work at all)
+Solr query may be longer than allowed by the Web Container
+Authority Control: Wrong value for lookup popup (JavaScript) and missing index of repeatable fields in JSPUI
+Extracted TEXT is always publicly searchable, even if the source file is restricted
+Submitting individual Collection/Community AIP(s) fails when there is an associated access-control Group
+Expunging an item fails to mark bitstreams as deleted
+REST Create Item endpoint returns 500 error first time it is called
+WorkflowManager expects users to have rights on next Step as well
+no longer can select eperson after upgrade to 5.6
+Authority Control via Choices displays values without authorisation
+Cache Issue when user authenticates
+JSPUI: Wrong order of collections in DropDown menu
+When deleting a collection role the group is also deleted, which is not appropriate for non-system-created groups
+Performance fixes : Indexing and caching
+Filter Media leaks file sockets
+Cleanup utility leaves files in assetstore
+Listing of all Groups misses pagination
+XMLUI: Submission verify step ignores type binding
+Trying to fetch unqualified metadata fields via REST fails
+2 item level embargo bugs in OAI-PMH
+Making an Item private does not remove it from the OAI index with incremental indexing.
+Supplementary unicode characters breaking XMLUI and OAI
+Language change causes "page not found" error in several forms on XMLUI
+The Bitstreams deletion flag is not set in the database in case of an item deletion
+Search query escaping is not accurate
+Export a search with equal filter doesn't work if the field has a comma.
+TokenHolder closes connection for the EPersons it remembers
+Database OAI Not Implemented
+item.floor and item.lookup values in dstat.cfg ignored if changed from its default value
+OAI-PMH verb Identify doesn't work on Oracle
+DSpace API return code 500 instead of 404 when item with given handle not present in repository
+Sword v2  METS ingester ignores collection template
+demo.dspace.org tries to reuse handles after content reset
+DSpace fails to start when a databse connection pool is supplied through JNDI
+LDAP Authentication doesn't work if log level is DEBUG
+Defend against bad MIME types
+Handle sequence issue on demo.dspace.org
+Error in Discovery search with sort parameters
+deleting last bitstream via REST doesn't delete bundle
+ItemImportServiceImpl needs refactoring to separate commandline and servlet code
+Valid values on imported records that are not matched by fields on the Dspace Input form double every time metadata is saved, and cannot be deleted.
+404 errors when retrieving EOT resources in IE
+Submission configuration requires invalid XML if using custom <step-definitions>
+On first click, "View More" link re-displays the same content as on the community or collection landing page
+Registry loader should always use NULL if no qualifier is specified
+no upload success notice for the JSPUI upon successful upload of an unknown or internal-use-only bitstream format
+unable to set bitstream format to be internal or external via the JSPUI
+Item Mapper returns first "dc.contributor.*" field it finds as "Author"
+File size formatter don't use either binary prefixes nor decimal prefixes
+Collection/community Mets.xml opens as html rather than as xml
+Duplicated metadata in solr search index
+metadata.hide should override webui.itemdisplay
+NPE when harvesting DIM metadata format
+Shib login creates EPerson with null values
+Groups list when editing policies should sort alphabetically
+vagrant up fails if sync_src_to_host is set to true
+Don't stash config/default.license in memory; read the current text every time
+RDF/Sesame requests will sometimes get stuck and never time out
+stats-log-importer imports all records in current month...
+UpdateAuthorities script doesn't work
+REST API returns 500 instead of 404 for missing item
+Semicolon appended to DCSeriesNumber
+disableFileEditing not working as intended during workflow-fileupload
+Failing to import metadata
+5x File Specific Embargo date does not save for a bitstream
+"The OAI server does not support dissemination in this format" when NameSpace hasn't has trailing slash
+Community Admins don't get a "Delete" button on the EditCollection page in XMLUI
+On error pages, links back to home page broken when xmlui deployed at /
+Feedback page referrer is always root_url/feedback
+AIP import doesn't fail on MD5 mismatch
+dc.date.available and dc.date.accessioned only differ when using old Embargo system
+Thumbnail different in collection item list and search results than in simple item view
+Metadata missing in Item Approval View
+collection template language qualifiers ignored - JSPUI Test Plan Ref SUB13
+non conformant to accessibility standards - DSpace 6 JSPUI Test Plan Ref VIEW8
+Empty author lookup returns cryptic error
+Warnings from SAXParserImpl 
+DC output in OAI-PMH should use xml:lang attributes
+'Lookup' choice search does not properly refresh the form
+Mirage2 - Grunt doesn't respect angle bracket comments in scripts.xml
+Geo information missing in usage events (rare cases)
+AIP import of roles fails if groupname has leading or trailing whitespace
+AIP Backup and Restore, DOI information is lost
+Non-numeric handle suffixes break update-sequence.sql
+enable parallel Maven builds
+JSPUI: Adding a repeatable item instance while editing metadata doesn't reposition correctly
+Multiple publisher informations are concatenated in browser and search results
+'dspace version' shows many copies of the same webapp
+/rest/handle endpoint is not documented in RestIndex.java
+Solr sharding and statistics display in JSPUI
+in group selection the sorting by name does not work
+EPerson selection list sorting
+Preserve author order when adding ORCID through CSV batch edit
+Multiple dc.contributor.author facets have same authority value but different confidence value, also incorrect # of items
+AuthorityIndexClient CLI script is missing -h/usage info
+DSpace Connection Recovery Problem
+RDFizer does not produce valid URIs for some resources
+Delete or reorder bitstream impossible in item with many bitstreams
+Backdoor access to admin area from a normal user via a specific link
+Google Analytics Statistics not relating parent comm/coll to bitstream download
+Pagination in REST API returns inconsistent amount of items per page
+Separate command line tools into a new artifact
+Harvesting OAI-PMH using "until" param with a midnight timestamp (T00:00:00Z) returns items last modified on that date
+Checksum checker errors out with services refactor
+embargo lifer not setting bundle/bitstream policies
+OAI-ORE import fails if filename contains spaces.
+Get collections has bad logic of limit and offset
+Batch import via command line incorrectly duplicates path specified in '-s' flag
+OpenSearch autolink shown in XMLUI even if OpenSearch not enabled
+Collection name stays same in breadcrumbs after renaming collection
+Cocoon components configuration deprecation warning
+Possible non-compliance of OAI when cache enabled
+XMLUI analytics key used under jspui 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder"
+Duplicate Author entries in Discovery and SOLR Authority control index
+LDAP users shouldn't be allowed to set password (option)
+Enter key doesn't apply new filter on discovery screen
+Item Mapper search returns too few results
+Request-a-copy form asks about "all files/selected files" even when there is only one file
+Type-binding functionality only considers first entry of dc.type 
+Message string containing apostrophe isn't parameterised
+Migrating pre DSpace 3 embargos on Oracle: Nullpointer without stacktrace
+NullPointerException when accessing non existing bitstream via sequence
+Link element is missing in xml rest response
+Logging statistics with google-analytics can prevent file downloads
+OAI: Invalid white space character (0x17) in text to output
+missing items in Solr because field value started with left bracket "["
+OAI-PMH stylesheet: values run out of bounds of panel-body
+Logging statistics through API only logs ip when using proxy
+REST API 500 status + exception
+DOI and withdrawn items
+Distribution License on Item submission
+Inconsistent behaviour of doi-organiser
+DOIIdentifierProvider - Updates of Items not properly consumed
+Changes for Identifier Provider not handled via event consumer
+InstallItem.installItem mints identifiers when metadata are incomplete
+Mirage2 does not seem to be able to compile offline
+JSPUI: Add resource policy dates to the list of authorities in the admin interface
+Map feature UI in XMLUI with Mirage 2 design not ideal
+XMLUI login page should warn if login is prohibeted by a system alert
+Altmetric badges not displaying in XMLUI with Mirage 2
+PDF cover page feature removes bundle:original
+Content Disposition config inconsistent between UIs
+Bad response and Trail issues in StatisticsTransformer
+Creative Commons web service failure breaks submission
+Internal System Error while trying to move a Collection item template 
+improve documentation and example configurations for search index customization
+Language column of metadata fields is inconsistently populated across several areas of the codebase
+Problem at Statistics (Solr) with spider list
+Mirage 2: Content pane overflow for very long publisher names without spaces
+Database field limits are not validated for prior to submission of an admin form
+StatisticsImporter has hardwired tests to exclude three search companies and no others
+webui.itemdisplay.default only works for JSPUI
+Recent Submission not showing (i.e. on home page) in default 5.1 installation
+ImageMagick "replaceRegex" setting to overwrite existing thumbnails does not appear to work
+missing  dspace-solr dependency ? 
+Statistics sharding doesn't work for remote solr servers
+plugin name collision - same name in lower and upper case?
+Harvesting from cli throws exception when log level set to debug
+Statistics Sharding cannot recover from error
+Community Admins unable to delete Collections under their Community
+Arabic translation - extra files
+Cannot set up custom XMLUI binding for select collection step
+query.filter.spiderIp is redundant, incomplete, scales poorly
+dspace stats-util --mark-spiders doesn't use name or agent patterns
+Many language catalogs misses entries side-news.html and side-top.html
+dc.rights and dc.rights.uri is duplicated
+Booleans from altmetrics.cfg don't work properly
+XMLUI fails with 4-byte UTF-8 characters in metadata
+xmlui-mirage2 module contains a problematic .gitignore file
+ItemTest does not sufficiently control the tested unit's environment
+LDAPAuthentication Plugin only supports auto-registration for Hierarchical LDAP settings
+XMLUI search forms should use GET instead of POST (search results should be easily sharable)
+item mapper returns too many results for a handle search
+checksum checker should set BitstreamInfo found=true if the bitstream exists
+checker option -a does not traverse subcommunities
+OAI harvester gives non-specific error message
+Configurable export all metadata from Admin UI
+DSpace 5.0 DS-2180 does not appear fixed - My Archived Submissions in XMLUI not actually sorting by date
+Licence inherits from default read settings
+JSPUI: Obmitting Community/Collection/Group when changing Authorization Policies produces an Internal System Error
+Bistream ordering arrows not enabled/disabled correctly
+NPE in packager -d
+wrong error message from Discovery about missing bitstream
+the update file [dspace]/etc/postgres/update-sequences.sql is out of date.
+OAI Harvest Failure if collection contains withdrawn items
+Advanced search filters aren't shown in Mirage 2 if some UI string contains a single quote
+ArtifactBrowse month select input language
+Bug Authority Control Mirage2
+Pre-existing workflow tasks are not visible to new members of a collection's workflow group.
+Sort options in single browse i.e. metadata browse with a value selected do not work
+Problem with upload with embargo options
+Searching with an empty filter results in a NPE
+Item mapped to the same collection many times (in JSPUI)
+Setting "core.authorization.community-admin.item.delete = false" prevents community admins from moving items.
+Related items - do not show items that cannot be accessed by a user
+Feedback form in JSPUI reports wrong refering page
+Cocoon stores uploaded files within its webapp directory tree
+XOAI bitstreamaccessFilter 
+BTE - batch metadata Import does not upload metadata from RIS file Format
+improperly encode bitstream links when names contain ' or other special chars
+OAI import depends on locale
+MapperMain.java is unnecessarily memory-intensive
+Safari does not show https:// padlock
+Inherit Discovery Facet Configuration from Parent Community
+Identify OAI verb fails if description.file is not defined
+unable to stop or restart Tomcat 7 when loading JSPUI or LNI webapps
+Replication Task Suite will write a DELETION_RECORD even if AIP doesn't (yet) exist
+INFO: validateJarFile message in catalina.out
+JSPUI Bootstrap dropdowns don't display properly in IE8 or 9
+ant fails on prepare_configs if GeoLiteCity.dat exists in [dspace-src]
+Search scope lost at search when option in the "gear" is changed
+"Private" Items should include a "noindex" meta tag in the HTML
+OAI-PMH 'clean-cache' command doesn't report an error when it fails
+XMLUI and JSPUI handles read permission differently
+Erroneous Wing Table configuration breaks UI
+XmlWorkflowManager should send reject email in the language receiver instead of the sender
+Value stored in HashMap with put(x, value) but get with(y,value) at org.dspace.xmlworkflow.state.Workflow#getStep
+Global Setting to stop Explicit Authentication Trigger  for GET-DSObject requests 
+Solr 4.4 has dependency on non Maven Central repository
+SolrException: BadRequest or tooManyClauses when a large number of users are in a group
+PSQL field length error after entering a +128 characters collection name
+XMLUI collection view still doesn't show content by default
+Controlled vocabulary lookup ignores configuration options
+CachingServiceTest fails intermittently
+Collection list in SWORD doesn't appear
+XMLUI mobile theme doesn't render discovery search results options
+XPDF default settings are missing from dspace.cfg & documentation is lacking
+OAI-PMH indexing throws AuthorizationException when License is not available anonymously
+dspace import cmd not encoding utf-8 file names correctly
+OAIClient does not handle HTTP redirects properly for ORE harvested files
+mobile theme doesn't render sort options
+doi_seq in update-sequences.sql missing
+Browse not updating after metadata update
+XMLUI Language switcher breaks submission flowscript
+Move sequence creation block in database-schema.sql for Oracle
+Admin Edit Item metadata dialog allows empty metadata fields
+Concurrency Issues In OAI Code Cause Connection Pool Starvation
+IP-Based authentication fails if load-balancer/proxy 
+Reinstate the ability to add a CC Licence post submission in the JSPUI  
+Broken help link in dspace administration (e-person section)
+DSpace uses wrong namespace lookup for metadata precluding custom metadata for use in Ingestors
+MetadataExport.export() hides all exceptions from the user
+Sword v2 Multipart accept alternate is incorrect - multipart/related
+DSpace statistics: incorrectly parsing event names from log file entries
+Empty Listitem in pagination divs
+community browse broken in Kubrick theme
+field labels not displayed in RSS 2.0 feed
+Submission control button position is inconsistent in UploadStep
+Submission's ReviewStep uses submit-upload id
+Submission form saves only unique fields based contributors (not based on qualifier)
+Invalid XHTML returned from JQueryLoaderReader
+[dspace]/bin/dspace clean_database doesn't do anything
+Sorting error when having desc 
+When Deleting items Via Map File, if in Workflow they do not get deleted
+ encapsulated MODS in disseminated METS packages do not validate
+DSpace getSingletonService doesn't allow for setting custom names in spring beans
+Add missing meta tags supported by Google Scholar
+Exception handling for deleting a metadata field (XMLUI)
+Delegated admin - policy change error
+MalformedURLException not caught in SolrLogger
+unhelpful error message caught in SolrLoggerUsageEventListener
+Reports that Google Scholar is sometimes linking to DSpace extracted text (*.pdf.txt) files instead of original PDF
+mobile dspace theme should be accessible under the "/mobile" URL
+Lucene searches changed behaviour at DSpace 1.8
+in XMLUI, the creative commons link  does not address the creative-commons license, just the item page
+mobile theme needs a few more tweaks
+switch to non-mobile theme is available only on homepage
+Removing default_item_read and default_bitstream_read policies
+CC License & Collection metadata on item pages Layout issues
+SWORDClient throws an error when attempting to parse a 500 response from Tomcat
+p(Unknown Source)
+        at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.setupPipeline(AbstractProcessingPipeline.java:343)
+        at org.apache.cocoon.components.pipeline.impl.AbstractCachingProcessingPipeline.setupPipeline(AbstractCachingProcessingPipeline.java:710)
+        at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.preparePipeline(AbstractProcessingPipeline.java:466)
+        at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.process(AbstractProcessingPipeline.java:411)
+        at sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:601)
+        at org.apache.cocoon.core.container.spring.avalon.PoolableProxyHandler.invoke(PoolableProxyHandler.java:71)
+        at $Proxy30.process(Unknown Source)
+        at org.apache.cocoon.components.treeprocessor.sitemap.SerializeNode.invoke(SerializeNode.java:147)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:55)
+        at org.apache.cocoon.components.treeprocessor.sitemap.MatchNode.invoke(MatchNode.java:87)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:78)
+        at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:78)
+        at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:81)
+        at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:239)
+        at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:171)
+        at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:247)
+        at org.apache.cocoon.components.treeprocessor.sitemap.MountNode.invoke(MountNode.java:117)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:55)
+        at org.apache.cocoon.components.treeprocessor.sitemap.MatchNode.invoke(MatchNode.java:87)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:78)
+        at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:78)
+        at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:81)
+        at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:239)
+        at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:171)
+        at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:247)
+        at org.apache.cocoon.components.treeprocessor.sitemap.MountNode.invoke(MountNode.java:117)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:78)
+        at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+        at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:78)
+        at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:81)
+        at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:239)
+        at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:171)
+        at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:247)
+        at org.apache.cocoon.servlet.RequestProcessor.process(RequestProcessor.java:351)
+        at org.apache.cocoon.servlet.RequestProcessor.service(RequestProcessor.java:169)
+        at org.apache.cocoon.sitemap.SitemapServlet.service(SitemapServlet.java:84)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+        at org.apache.cocoon.servletservice.ServletServiceContext$PathDispatcher.forward(ServletServiceContext.java:468)
+        at org.apache.cocoon.servletservice.ServletServiceContext$PathDispatcher.forward(ServletServiceContext.java:443)
+        at org.apache.cocoon.servletservice.spring.ServletFactoryBean$ServiceInterceptor.invoke(ServletFactoryBean.java:264)
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+        at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+        at $Proxy27.service(Unknown Source)
+        at org.dspace.springmvc.CocoonView.render(CocoonView.java:113)
+        at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:817)
+        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+        at org.dspace.app.xmlui.cocoon.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:111)
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+        at org.dspace.app.xmlui.cocoon.DSpaceCocoonServletFilter.doFilter(DSpaceCocoonServletFilter.java:269)
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+        at org.dspace.app.xmlui.cocoon.servlet.multipart.DSpaceMultipartFilter.doFilter(DSpaceMultipartFilter.java:119)
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+        at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+        at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+        at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+        at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+        at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+        at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+        at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+        at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+        at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+        at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+        at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+        at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+        at java.lang.Thread.run(Thread.java:722)
+Caused by: org.purl.sword.base.UnmarshallException: Unable to parse the XML
+        at org.purl.sword.base.DepositResponse.unmarshallErrorDocument(DepositResponse.java:250)
+        at org.purl.sword.base.DepositResponse.unmarshallErrorDocument(DepositResponse.java:224)
+        at org.purl.sword.client.Client.postFile(Client.java:450)
+        ... 170 more
+Caused by: nu.xom.ParsingException: The element type ""HR"" must be terminated by the matching end-tag ""</HR>"". at line 1
+        at nu.xom.Builder.build(Builder.java:1132)
+        at nu.xom.Builder.build(Builder.java:1049)
+        at nu.xom.Builder.build(Builder.java:1076)
+        at org.purl.sword.base.DepositResponse.unmarshallErrorDocument(DepositResponse.java:240)
+        ... 172 more
+Caused by: org.xml.sax.SAXParseException; systemId: http://purl.org/net/sword/; lineNumber: 1; columnNumber: 989; The element type ""HR"" must be terminated by the matching end-tag ""</HR>"".
+        at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+        at nu.xom.Builder.build(Builder.java:1127)
+        ... 175 more
+
+----
+
+I'm wondering if there's any better way to deal with this?"
+Supported locale behaviour in xmlui - Mirage Theme
+Daily Subscription Emails
+Feedback Form doesn't appear to do anything if Email is blank
+In Shibboleth authentication most IDPs do not supply an email address so authentication fails
+ShibAuthentication method getSpecialGroups goes against spec in requiring shib login
+Submissions page should display Workflow Tasks before Archived Submissions
+Xmlworkflow multiple action configuration not deleting claimed tasks
+Provide user-friendly error message when registration is disabled and user goes to /register
+Hardcoded button display text in several XMLUI themes (Reference, Mirage, etc) makes i18n difficult
+Java.io.IOException: No such file or directory error on file uploads or updates
+Searches interspersed with a minus (separated by spaces) will exclude the following term. (AND NOT)
+harvester.rejectedHandlePrefixes logic error
+Workflow email notifications error out if one group member has an invalid email address 
+Feedback form breaks when hostname is short
+AuthenticationManager.allowSetPassword is problematic with stacked authentication modules
+The maximum flag on filter-media is useless if results are returned in the same order every time
+DIDL Crosswalk exporting data without escaping specific XML chars
+markRobotsByIP doesn't remove isBot:false records
+AuthenticationManager.canSelfRegister is problematic with stacked authentication modules
+Solr Statistics markRobotsByIP can mark too many IP addresses, including IP's not on the IP list
+Multiple 'Create' clicks creates multiple communities/collections
+Browse Pagination
+index-update not updating author browse index
+Browse by author's "enter first few letters" sometimes broken
+ItemImport does not delete items that weren't placed into the archive
+Performance issues in update enabling the StatisticsLoggingConsumer
+DCDate throws NullPointerException with mangled dates
+Spelling errors in Russian language pack/
+email sender fails to recognize BOM in the email template
+Controlled vocabularies not shown when editing an item
+createAdministrators() and createSubmitters() should not add policies if the associated group already exists
+Some Browse code did not take into account the change to Authority values
+XMLUI itemSummaryList-DIM only matches first possible author metadata field
+Statistics column and row labels not i18n
+Caching problem when users logout
+ItemExport doesn't/can't create mapfile
+DspaceFeedGenerator not serializable?!
+Registration Notification with null data for eperson created by the administrator
+jspui Browse by author "Jump to" menu
+RSS/Atom feeds return too few Items when restricted items are excluded
+XMLUI Labels for Checkboxes are hardcoded in Java, cannot be translated
+HTML stripped from <hint> text in input-forms.xml
+invalid input syntax for type timestamp in db query for stat-initial utility
+Updates in administrative metadata (i.e. dc.description.provenance field) when editing from admin-pages
+Collection template metadata language qualifiers ignored
+XMLUI's METS generator ignores authorization
+Add and Remove Selected actions on individual metadata fields have an effect on the whole form
+DSpace should not mint new handles for harvested items
+oai.harvester.acceptedHandleServer only accepts hdl.handle.net value
+JSPUI admin navbar's Statistics opens legacy-based stats reporting
+Statistic Events are stored ignoring the time zone of the server
+Minor accessibility issues with Mirage v1 theme (WCAG 2.0 level AA)
+Blue lock icon is misleading when logged into system
+Integrate Replication Task Suite into the main DSpace bundle
+DSpace Build Error When Git is Not Present
+stats-util -r does not yield any  action
+Arbitrary new attributes cannot get used in authentication-shibboleth.cfg
+Misleading date labels in embargo step during item submission
+Invalid date crashes search result/browsing list
+OAI interface not working with a document using special charaters 
+getAuthorizedGroups doesn't consider inheritance
+A fault on a single bitstream should not kill the execution of Filter-Media
+DiscoveryUIUtils.getRepeatableParameters does not take shared prefixes into account
+Filter-media should log which bitstream it processes when starting
+Language setting in profile ignored (in most cases)
+Use enum for rest api categories (core, eperson, discover)
+XMLUI submission process ignores controlled vocabulary "closed" attribute
+Nullpointer on feedback form when accessed directly
+Bitstream encoding is ISO-8859 instead of UTF-8
+Full Text Index Behavior on Public Items with Embargoed Bitstreams
+Jump to value in descending browse jumps to incorrect location, for author and subject browse
+AuthorizeException on "take task" during workflow process
+OAI Incorrect SQL query with storage=database
+dependency on multiple Apache Jena versions
+withdraw item fails to specify item when redirecting back to edit page
+default username in Add EPerson in JSPUI
+Mirage2 uses single dolar sign delimiters for MathJax
+"Unable to create contents directory" ERROR message during ItemImport with zipfile
+XML validation currently only occurs when dspace-api is built
+'dspace cleanup' swallows exception silently if 'verbose' is not set
+OAI index fails completely with one bad item
+Discovery sidebar facet next button broken when facet results equals max facets config
+Discovery Solr indexer throws ERROR with a stack trace for every non-public item
+wildcard policy admin tool should be easier to find, and should work for collections and coummunities as well as items and bitstreams
+Conflicting limits in HandleManager can cause unnecessary IllegalArgumentException
+item display uses incorrect labels when collection has custom itemdisplay
+Discovery setting for DefaultRpp is not used in XMLUI
+JSPUI registers bitstream view event before making sure it can access
+On AIP Item restoration, VersionedHandleIdentifierProvider logs unnecessary errors about resolving item handle
+Repair or remove SupervisedItem functionality in JSPUI
+DSpace 5.0 DS-2175 Long community names overlap with collection name on cover page
+DSpace 5.0 DS-2175 Long collection names run off cover page
+DSpace 5.0 DS-2175 Items with more than one file - each file gets same cover page
+"Private Items" are misnamed, as permissions/privacy is not really changed
+Delete EPersons even if they submitted Items or are refrenced elsewhere in DSpace
+using the back button to change collection during ingest
+Private items are not accessible via OAI-PMH GetRecord
+"Invalid UUID string: -1" if pressing 'Enter' key in the password change field
+Title and header "Page cannot be found" of PageNotFoundTransfomer cannot be included in i18n
+embargo setter using wrong group default 
+restricted bitstreams created via REST also allow anonymous access
+java.lang.NullPointerException when exporting metadata from top-level community
+Controlled vocabulary search doesn't work when delimiter is used
+MetadataExport exports empty languages i.e. dc.title[]
+index-discovery -f causes a site to "look weird"
+find-by-metadata not always working correctly
+Localization of default.license
+OAI-PMH returns non UTF-8 characters
+DOI registration via DataCite exposes metadata of withdrawn items
+Streamline & add comments to our Solr configurations
+Changing value-pairs-name for language tags has no effect
+Request-a-copy form promises that users of the system can log in to view restricted files even when file is admin-only
+Reorganize Development documentation
+Ingest adds empty license file for collections using the default license
+REST API, DSpace6.0 update bitstream data returns http 500
+E-Mail Configuration not valid if mail.server.username is not specified
+Consider change to SOLR schema to improve search stemming (text --> textgen)
+Clean up EHCache configuration mess
+EZID is being phased out -- remove EZID code from DSpace
+Authorization denied for action WRITE when starting curation task from workflow-curation.xml
+DSpace 'logging in' without password or with non-existent e-mail using Shib and Password authentication
+Mirage 2 Breadcrumb and header alignment
+Can't create items through REST (non admin user)
+Submission Resource Policy not correctly removed during XMLWorkflow
+Footers take up too much space for short pages
+QDC output in OAI-PMH should use xml:lang attributes
+cleanup command fails to properly delete object files from storage
+Discovery search labels show authority key instead of author name
+mirage2: custom sitemap.xmap is ignored
+Addition of facet dates to DiscovQuery
+Hibernate validation schema failure on Public.Doi
+Versioning duplicates Bitstreams instead of pointing to the same file on the disk
+Versioning in DSpace 6 multiplies metadata
+packager export fails on users with null password/email with unhelpful message
+Handle resolver is hardcoded in org.dspace.handle.UpdateHandlePrefix
+Recent Submissions in Reference theme completely covered up by navigation
+Ehcache config conflicts when running multiple DSpace instances
+DSpace stores DOIs in different metadata values depending on which DOI registration agency is used
+Submitting to a collection from inside the collection with DOI/Pubmed lookup enable gives "Internal System Error"
+Base dspace-rest webapp forces Java 1.8 Postgres driver
+Exporting AIP packages problem
+review step ignores type-bind
+Homepage DiscoveryConfiguration never used due to missing IDs
+Bitstream metadata is duplicated on version creation
+Readonly attribute for fields
+BTE import service fails to import multiple qualdrop fields
+EPerson REST endpoint should expose groups as a link
+Last modified timestamp doesn't trigger on bitstream add
+qualdrop_value causes problems when there are similar fields in input-forms which differ by schema only
+Multiple uses of the same vocabulary on the same page only update the first field
+'readonly' element missing in input-forms.dtd
+CSV linebreaks not supported by Bulkedit
+DSpace 7 REST API doesn't trigger the flyway migration
+Unwanted deletion of metadata entries during Describe step with qualdrop_value
+Duplicate value in qualdrop values
+Configuration whitespace trimming 
+Browse jump to not working correctly when more than 1 word is entered
+Missing left padding
+Windows speciffic problem with OAI
+Login link doesn't work on "page not found" pages for Mirage, Mirage 2
+Assume user login, internal error on logout
+All metadata fields selectable in edit item or item template even those created for eperson
+Item Mapper internal error when nothing is entered in the search field
+Community Home Page Recent Submission Caroussel abbreviation of title and special character
+i18n - hardcoded strings in recent submisson carousel
+Choosing "No Creative Commons license" throws user back to to "Select or modify a license"
+DIM2DataCite crosswalk errors and annotation
+RSS <pubDate> is broken when using AARC2
+Context.ignoreAuthentication() has a confusing name
+VersionedHandleIdentifierProvider bean defined twice
+Certain statistics missing from pre-1.6 statistics reports
+Statistics appear for withdrawn items using an ID rather than title
+On the submissions page, the titles of completed submissions look odd
+alphabetic menu in "Browse by" navigation produces incomplete URLs  
+Bitstream order error
+Invalid XHTML in Javascript generated by Mirage theme
+Login values not trimmed, leading and trailing whitespaces lead to failure in login
+Date type can't be repeatable in the submission
+Submission doesn't preserve the order of Qualdrop values
+Wrong visualization of files in detail view of ORE items in Mirage 2
+ORCID link to orcid hardcoded in person lookup
+ORCID lookup by name not working

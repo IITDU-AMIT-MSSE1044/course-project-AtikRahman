@@ -7,21 +7,18 @@ from collections import Counter
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
-hm_lines = 100000
 
 
 def create_lexicon(bug, non_bug):
     lexicon = []
-    with open(bug, 'r') as f:
-        contents = f.readlines()
-        for l in contents[:hm_lines]:
-            all_words = word_tokenize(l)
+    with open(bug, encoding='utf8') as f:
+        for line in f:
+            all_words = word_tokenize(line)
             lexicon += list(all_words)
 
-    with open(non_bug, 'r') as f:
-        contents = f.readlines()
-        for l in contents[:hm_lines]:
-            all_words = word_tokenize(l)
+    with open(non_bug, encoding='utf8') as f:
+        for line in f:
+            all_words = word_tokenize(line)
             lexicon += list(all_words)
 
     lexicon = [lemmatizer.lemmatize(i) for i in lexicon]
@@ -38,10 +35,9 @@ def create_lexicon(bug, non_bug):
 def sample_handling(sample, lexicon, classification):
     featureset = []
 
-    with open(sample, 'r') as f:
-        contents = f.readlines()
-        for l in contents[:hm_lines]:
-            current_words = word_tokenize(l.lower())
+    with open(sample, encoding='utf8') as f:
+        for line in f:
+            current_words = word_tokenize(line.lower())
             current_words = [lemmatizer.lemmatize(i) for i in current_words]
             features = np.zeros(len(lexicon))
             for word in current_words:
@@ -59,8 +55,8 @@ def sample_handling(sample, lexicon, classification):
 def create_feature_sets_and_labels(bug, non_bug, test_size=0.1):
     lexicon = create_lexicon(bug, non_bug)
     features = []
-    features += sample_handling('bug.txt', lexicon, [1, 0])
-    features += sample_handling('non_bug.txt', lexicon, [0, 1])
+    features += sample_handling(bug, lexicon, [1, 0])
+    features += sample_handling(non_bug, lexicon, [0, 1])
     random.shuffle(features)
     features = np.array(features)
 
@@ -72,3 +68,7 @@ def create_feature_sets_and_labels(bug, non_bug, test_size=0.1):
     test_y = list(features[:, 1][-testing_size:])
 
     return train_x, train_y, test_x, test_y
+
+
+tr_x, tr_y, t_x, t_y = create_feature_sets_and_labels('bug.txt', 'nonBug.txt')
+print('ok...')

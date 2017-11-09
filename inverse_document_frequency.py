@@ -39,5 +39,5 @@ my_idf_vector = [idf(word, mydoclist) for word in vocabulary]
 print ('Our vocabulary vector is [' + ', '.join(list(vocabulary)) + ']')
 print ('The inverse document frequency vector is [' + ', '.join(format(freq, 'f') for freq in my_idf_vector) + ']')
 
-# my_idf_matrix = build_idf_matrix(my_idf_vector)
-# print(my_idf_matrix)
+my_idf_matrix = build_idf_matrix(my_idf_vector)
+print(my_idf_matrix)
