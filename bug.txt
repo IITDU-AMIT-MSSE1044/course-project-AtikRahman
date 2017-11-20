@@ -1,5 +1,4 @@
-Summary
-Invalid field parameter when switching language while viewing View More from sidebar facets
+﻿Invalid field 15 / parameter, when switching language while viewing View More from sidebar facets
 Search Author 
 DSpace 5.0 DS-2175 issues with special characters - encodings
 Request a document copy

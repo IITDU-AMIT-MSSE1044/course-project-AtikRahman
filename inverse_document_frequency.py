@@ -22,22 +22,14 @@ def build_lexicon(corpus):
         lexicon.update([word for word in doc.split()])
     return lexicon
 
-vocabulary = build_lexicon(mydoclist)
+# vocabulary = build_lexicon(mydoclist)
 
 
 def idf(word, doclist):
     n_samples = len(doclist)
     df = numDocsContaining(word, doclist)
-    return np.log(n_samples / 1+df)
+    ratio = n_samples / (1+df)
+    return np.log(ratio)
 
-def build_idf_matrix(idf_vector):
-    idf_mat = np.zeros((len(idf_vector), len(idf_vector)))
-    np.fill_diagonal(idf_mat, idf_vector)
-    return idf_mat
-
-my_idf_vector = [idf(word, mydoclist) for word in vocabulary]
-print ('Our vocabulary vector is [' + ', '.join(list(vocabulary)) + ']')
-print ('The inverse document frequency vector is [' + ', '.join(format(freq, 'f') for freq in my_idf_vector) + ']')
-
-my_idf_matrix = build_idf_matrix(my_idf_vector)
-print(my_idf_matrix)
+# idf_value =idf('noth', mydoclist)
+# print('idf value: ', idf_value)
