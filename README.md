@@ -24,12 +24,15 @@ I have extended this base project. In addition I have used neural network techni
 
 ## Instructions to use
 **Prerequisite:** 
-1. Python
+1. Python 3
 2. Tensorflow version 0.12.1 
 
+# Install required packages by the following commands: 
+pip install -U nltk
+pip install -U scikit-learn
+pip install --upgrade tensorflow
 
 * Clone the project
-* Install required packages with 'pip' 
 * Build and run 
 * run command: python Neural_Network.py
 
